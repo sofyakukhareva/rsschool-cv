@@ -24,10 +24,31 @@ I like to learn everything relate to user interfaces development. Specifically u
 
 ## Code Examples ##
 
-
+``` JavaScript
+function calcType(a, b, res) {
+  switch(res){
+      case a + b: return "addition"
+      case a - b: return "subtraction"
+      case a * b: return "multiplication"
+      case a / b: return "division"
+  }
+}
+```
 
 ## Experience ##
 
+I have been working as a Content Strategist in epam for half a year. Now I am gaining practical experience to work as a Software Engineer. I have been doing html layout since 2017. In college I made learning pages for teachers and developed a training program using react for my graduate work.
+
 ## Education ##
 
+institution | program | year of graduation
+--- | --- | ---
+BSUIR affiliate "Minsk Radioengineering College" | Information technologies software | 2021
+European Humanities University | Visual Design | 2025
+
 ## English Level ##
+
+EPAM English assesment
+
+* Writing B1+
+* Speking B1+
