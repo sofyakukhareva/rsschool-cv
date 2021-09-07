@@ -10,7 +10,7 @@
 
 ## About me ##
 
-I like to learn everything relate to user interfaces development. Specifically ui/ux design and front-end. My aim is to get a deep knowledge about development and have opportunity to develop qualitave interfaces.
+I like to learn everything related to user interfaces development. Specifically ui/ux design and front-end. My aim is to get a deep knowledge about development and have opportunity to develop qualitave interfaces.
 
 ## Skills #
 
