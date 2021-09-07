@@ -19,8 +19,9 @@ I like to learn everything relate to user interfaces development. Specifically u
 ![JavaSCript](https://img.shields.io/badge/-JavaScript-090909?style=for-the-badge&logo=JavaScript&LogoColor=E9D54D)
 ![React](https://img.shields.io/badge/-React-090909?style=for-the-badge&logo=React&LogoColor=61DAFB)
 ![Figma](https://img.shields.io/badge/-Figma-090909?style=for-the-badge&logo=Figma&LogoColor=F24E1E)
-![Adobe Photoshop](https://img.shields.io/badge/-AdobePhotoshop-090909?style=for-the-badge&logo=AdodePhotoshop&LogoColor=31A8FF)
+![Adobe](https://img.shields.io/badge/-Adobe-090909?style=for-the-badge&logo=Adode&LogoColor=FF0000)
 ![WordPress](https://img.shields.io/badge/-WordPress-090909?style=for-the-badge&logo=WordPress&LogoColor=21759B)
+![Jira](https://img.shields.io/badge/-Jira-090909?style=for-the-badge&logo=Jira&LogoColor=0052CC)
 
 ## Code Examples ##
 
