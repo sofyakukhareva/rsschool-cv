@@ -14,14 +14,17 @@ I like to learn everything relate to user interfaces development. Specifically u
 
 ## Skills #
 
-![HTML](https://img.shields.io/badge/-HTML-090909?style=for-the-badge&logo=HTML&LogoColor=f06529)
-![CSS](https://img.shields.io/badge/-HTML-090909?style=for-the-badge&logo=CSS&LogoColor=2965f1)
-![Figma](https://img.shields.io/badge/-HTML-090909?style=for-the-badge&logo=Figma&LogoColor=ac78cc)
-![Adobe Photoshop](https://img.shields.io/badge/-HTML-090909?style=for-the-badge&logo=Photoshop&LogoColor=3C327B)
+![HTML5](https://img.shields.io/badge/-HTML-090909?style=for-the-badge&logo=HTML5&LogoColor=E34F26)
+![CSS3](https://img.shields.io/badge/-HTML-090909?style=for-the-badge&logo=CSS3&LogoColor=1572B6)
 ![JavaSCript](https://img.shields.io/badge/-JavaScript-090909?style=for-the-badge&logo=JavaScript&LogoColor=E9D54D)
-![WordPress](https://img.shields.io/badge/-WordPress-090909?style=for-the-badge&logo=WordPress&LogoColor=21759b)
+![React](https://img.shields.io/badge/-HTML-090909?style=for-the-badge&logo=React&LogoColor=61DAFB)
+![Figma](https://img.shields.io/badge/-HTML-090909?style=for-the-badge&logo=Figma&LogoColor=F24E1E)
+![Adobe Photoshop](https://img.shields.io/badge/-HTML-090909?style=for-the-badge&logo=AdodePhotoshop&LogoColor=31A8FF)
+![WordPress](https://img.shields.io/badge/-WordPress-090909?style=for-the-badge&logo=WordPress&LogoColor=21759B)
 
 ## Code Examples ##
+
+
 
 ## Experience ##
 
