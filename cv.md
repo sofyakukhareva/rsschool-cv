@@ -15,11 +15,11 @@ I like to learn everything relate to user interfaces development. Specifically u
 ## Skills #
 
 ![HTML5](https://img.shields.io/badge/-HTML-090909?style=for-the-badge&logo=HTML5&LogoColor=E34F26)
-![CSS3](https://img.shields.io/badge/-HTML-090909?style=for-the-badge&logo=CSS3&LogoColor=1572B6)
+![CSS3](https://img.shields.io/badge/-CSS3-090909?style=for-the-badge&logo=CSS3&LogoColor=1572B6)
 ![JavaSCript](https://img.shields.io/badge/-JavaScript-090909?style=for-the-badge&logo=JavaScript&LogoColor=E9D54D)
-![React](https://img.shields.io/badge/-HTML-090909?style=for-the-badge&logo=React&LogoColor=61DAFB)
-![Figma](https://img.shields.io/badge/-HTML-090909?style=for-the-badge&logo=Figma&LogoColor=F24E1E)
-![Adobe Photoshop](https://img.shields.io/badge/-HTML-090909?style=for-the-badge&logo=AdodePhotoshop&LogoColor=31A8FF)
+![React](https://img.shields.io/badge/-React-090909?style=for-the-badge&logo=React&LogoColor=61DAFB)
+![Figma](https://img.shields.io/badge/-Figma-090909?style=for-the-badge&logo=Figma&LogoColor=F24E1E)
+![Adobe Photoshop](https://img.shields.io/badge/-AdobePhotoshop-090909?style=for-the-badge&logo=AdodePhotoshop&LogoColor=31A8FF)
 ![WordPress](https://img.shields.io/badge/-WordPress-090909?style=for-the-badge&logo=WordPress&LogoColor=21759B)
 
 ## Code Examples ##
