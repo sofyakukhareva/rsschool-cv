@@ -1,0 +1,124 @@
+@import url('https://fonts.googleapis.com/css2?family=Public+Sans:wght@400;900&display=swap');
+*{
+    margin: 0;
+    font-family: 'Public Sans', sans-serif;
+    
+}
+
+body{
+    background: linear-gradient(45deg, #e6e9f0, #eef1f5);
+}
+
+.main{
+    max-width: 1000px;
+    padding: 0 4%;
+    margin: 2% auto;
+    background-color: hsl(0, 0%, 98%);
+    box-shadow: 10px 2px 2px 1px rgba(49, 49, 49, 0.1);
+    -webkit-box-shadow: 0px 5px 10px 2px rgba(23, 40, 52, 0.2);
+    -moz-box-shadow: 0px 5px 10px 2px rgba(23, 40, 52, 0.2);
+    box-shadow: 0px 5px 10px 2px rgba(23, 40, 52, 0.2);
+}
+
+article{
+    padding-bottom: 2rem ;
+}
+ul { padding: 0;
+    list-style: none;}
+.content{
+    display: flex;
+    padding-top:3% ;
+}
+h1{
+    font-size: 36px;
+}
+h3{
+    padding: 2% 0 3% 0;
+}
+h4{
+    padding: 5px 10px;
+    margin-bottom: 0.9rem;
+    border: 2px solid black;
+    display:inline-block;
+}
+.about{
+    border-bottom:2px solid black;
+    padding-right: 5%;
+}
+.profile{
+    display: flex;}
+.profile img{
+    border-radius: 50%;
+    max-height: 80px;
+    min-width: 80px;
+    object-fit: cover;
+    margin: 2% 0 0 3%;
+    border: 5px solid blanchedalmond;
+}
+.experience{
+    margin: 2% 0 5% 0;
+    padding-right: 5%;
+}
+pre{
+    background-color: blanchedalmond;
+    margin-top:4%;
+    padding:  0 5%;
+}
+aside{
+    padding-left: 4%;
+    border-left: 2px solid black;
+    width: 30%;
+}
+section{
+    width: 70%;
+}
+footer{
+    display:flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 2% 0;
+    border-top: 2px solid black ;
+}
+.skills{
+    margin-bottom: 2rem;
+    display: flex;
+    flex-wrap: wrap;
+    
+}
+.skills img{
+    max-height: 35px;
+    min-width: 35px;
+    margin: 2%;
+}
+footer img{
+    max-height: 50px;
+    min-width: 60px;
+    margin: 1%;
+
+}
+@media (max-width: 767px) {
+    .content{
+        display: inline-block ;
+        margin-top: 4%;
+    }
+    section{
+        width: 95%;
+    }
+    .profile{
+        display: inline;
+    }
+    aside{
+        width: 95%;
+    }
+    .main{
+        padding: 0 8%;
+    }
+    h1{
+        font-size: 28px;
+    }
+  }
+  @media (max-width: 320px) {
+      pre{
+          font-size: small;
+      }
+  }
