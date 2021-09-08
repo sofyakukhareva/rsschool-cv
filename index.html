@@ -5,40 +5,93 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Document</title>
+    <link rel="stylesheet" href="styles/style.css">
+    <link rel="stylesheet" href="styles/reset.css">
+
 </head>
 <body>
-    <div class = "main">
-        <div class = "content">
+    <div class="main">
+        <div class="content">
             <section>
                 <div class="about">
-                    <h2>Junior Software Engineer</h2>
+                    <h4>Junior Software Engineer</h4>
                     <div class="profile">
-                        <h1>Hello,I'm Sofya Kukharava</h1>
-                        <img/>
+                        <h1>Hello,I'm<br/> Sofya Kukharava</h1>
+                        <img src="images/profile_photo.jpg" alt="profile photo"/>
                     </div>
                     <article>
-                        I like to learn everything relate to user interfaces development. 
+                        I like to learn everything related to user interfaces development. 
                         Specifically ui/ux design and front-end. My aim is to get a deep knowledge about development and have opportunity to develop qualitave interfaces.
                     </article>
                 </div>
                 <div class="experience">
-                    <article></article>
-                    <article>code example</article>
+                    <h3>Experience</h3>
+                    <article>
+                        I have been working as a Content Strategist in EPAM Systems for half a year.
+                        Now I am gaining practical experience to work as a Software Engineer. 
+                        I have been doing html layout since 2017. 
+                        In college I made learning pages for teachers and developed a training program using react for my graduate work.
+                    </article>
+                    <h4>Code example</h4>
+                    <pre>
+                        <code>
+function calcType(a, b, res) {
+    switch(res){
+        case a + b: return "addition"
+        case a - b: return "subtraction"
+        case a * b: return "multiplication"
+        case a / b: return "division"
+    }
+}
+                        </code>                       
+                    </pre>
                 </div>
             </section>
             <aside>
-                <h2>Contact</h2>
+                <h4>Contacts</h4>
+                <article>
+                    <ul>
+                        <li><b>Location:</b> Minsk, Belarus</li>
+                        <li><b>Number: </b>+375298578437</li>
+                        <li><b>Email: </b>s.kuxareva@gmail.com</li>
+                        <li><b>GitHub:</b><a href="https://github.com/sofyakukhareva"> sofyakukhareva</a></li>
+                        <li><b>Instagram:</b><a href="https://www.instagram.com/linthutien/"> linthutien</a></li>
+                    </ul>
+                </article>
+                <h4>Education</h4>
+                <article>
+                    <h5>2017-2021</h5>
+                    <p>BSUIR affiliate “Minsk Radioengineering College”</p>
+                    <h5>2021-now</h5>
+                    <p>European Humanities University</p>
+                </article>
+                <h4>Skills</h4>
+                <div class="skills">
+                    <img src="images/html.png" alt="html logo"/>
+                    <img src="images/css.png" alt="css logo"/>
+                    <img src="images/js.png" alt="js logo"/>
+                    <img src="images/react.png" alt="react logo"/>
+                    <img src="images/photoshop.png" alt="photoshop logo"/>
+                    <img src="images/figma.png" alt="figma logo"/>
+                    <img src="images/wordpress.png" alt="wordpress logo"/>
+                    <img src="images/drupal.png" alt="drupal logo"/>
+                    <img src="images/jira.svg" alt="jira logo"/>
+                </div>
                 <article></article>
-                <h2>Skills</h2>
-                <article></article>
-                <h2>English Level</h2>
-                <article></article>
+                <h4>English Level</h4>
+                <article>
+                    EPAM English assesment
+                    <ul>
+                        <li>Writing B1+</li>
+                        <li>Speking B1+</li>
+                    </ul>
+                </article>
             </aside>
         </div>
         <footer>
-            <h3>GitHub</h3>
+            <h3><a href="https://github.com/sofyakukhareva">My GitHub</a></h3>
             <h3>2021</h3>
-            <h3>RS school</h3>
+            <a href ="https://rs.school/js/"><img src="images/rs_school.svg" alt="rs school logo"/></a>
         </footer>
     </div>
 </body>
