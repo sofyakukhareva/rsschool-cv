@@ -21,7 +21,7 @@ body{
 }
 
 article{
-    margin: 1rem 0 2rem 0;
+    padding-bottom: 2rem ;
 }
 ul { padding: 0;
     list-style: none;}
@@ -32,19 +32,21 @@ ul { padding: 0;
 h1{
     font-size: 36px;
 }
+h3{
+    padding: 2% 0 3% 0;
+}
 h4{
     padding: 5px 10px;
+    margin-bottom: 0.9rem;
     border: 2px solid black;
     display:inline-block;
 }
 .about{
     border-bottom:2px solid black;
-    padding-right: 3%;
+    padding-right: 5%;
 }
 .profile{
-    display: flex;
-    margin-top: 3%;
-}
+    display: flex;}
 .profile img{
     border-radius: 50%;
     max-height: 80px;
@@ -54,8 +56,8 @@ h4{
     border: 5px solid blanchedalmond;
 }
 .experience{
-    margin: 4% 0 5% 0;
-    padding-right: 3%;
+    margin: 2% 0 5% 0;
+    padding-right: 5%;
 }
 pre{
     background-color: blanchedalmond;
@@ -78,7 +80,7 @@ footer{
     border-top: 2px solid black ;
 }
 .skills{
-    margin-top: 8%;
+    margin-bottom: 2rem;
     display: flex;
     flex-wrap: wrap;
     
@@ -97,6 +99,7 @@ footer img{
 @media (max-width: 767px) {
     .content{
         display: inline-block ;
+        margin-top: 4%;
     }
     section{
         width: 95%;
@@ -106,6 +109,12 @@ footer img{
     }
     aside{
         width: 95%;
+    }
+    .main{
+        padding: 0 8%;
+    }
+    h1{
+        font-size: 28px;
     }
   }
   @media (max-width: 320px) {
