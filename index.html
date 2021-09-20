@@ -9,15 +9,28 @@
     <link rel="stylesheet" href="styles/style.css">
     <link rel="stylesheet" href="styles/reset.css">
     <link rel="stylesheet" href="styles/default.min.css">
+    <script src="script.js" defer></script>
     <script src="highlight.min.js"></script>
     <script>hljs.highlightAll();</script>
 </head>
 
 <body>
     <div class="main">
+        <header>
+            <nav>
+                <ul class="menu_ul">
+                    <li><a href="#about">About me</a></li>
+                    <li><a href="#experience">Experience</a></li>
+                    <li><a href="#contacts">Contacts</a></li>
+                    <li><a href="#education">Education</a></li>
+                    <li><a href="#skills">Skills</a></li>
+                    <li><a href="#english">English Level</a></li>
+                </ul>
+            </nav>
+        </header>
         <div class="content">
             <section>
-                <div class="about">
+                <div class="about" id="about">
                     <h4>Junior Software Engineer</h4>
                     <div class="profile">
                         <h1>Hello,I'm<br /> Sofya Kukharava</h1>
@@ -30,7 +43,7 @@
                             and have opportunity to develop qualitave interfaces.</p>
                     </article>
                 </div>
-                <div class="experience">
+                <div class="experience" id="experience">
                     <article>
                         <h3>Experience</h3>
                         <p>I have been working as a Content Strategist in EPAM Systems for half a year.
@@ -55,8 +68,8 @@ function calcType(a, b, res) {
                 </div>
             </section>
             <aside>
-                <article>
-                    <h4>Contacts</h4>
+                <article id ="contacts">
+                    <h4 >Contacts</h4>
                     <ul>
                         <li><b>Location:</b> Minsk, Belarus</li>
                         <li><b>Number: </b>+375298578437</li>
@@ -65,7 +78,7 @@ function calcType(a, b, res) {
                         <li><b>Instagram:</b><a href="https://www.instagram.com/linthutien/"> linthutien</a></li>
                     </ul>
                 </article>
-                <article>
+                <article id="education">
                     <h4>Education</h4>
                     <h5>2017-2021</h5>
                     <p>BSUIR affiliate “Minsk Radioengineering College”</p>
@@ -73,7 +86,7 @@ function calcType(a, b, res) {
                     <p>European Humanities University</p>
                 </article>
                 <h4>Skills</h4>
-                <div class="skills">
+                <div class="skills" id="skills">
                     <img src="images/html.png" alt="html logo" />
                     <img src="images/css.png" alt="css logo" />
                     <img src="images/js.png" alt="js logo" />
@@ -84,7 +97,7 @@ function calcType(a, b, res) {
                     <img src="images/drupal.png" alt="drupal logo" />
                     <img src="images/jira.svg" alt="jira logo" />
                 </div>
-                <article>
+                <article class="english" id="english">
                     <h4>English Level</h4>
                     <p>EPAM English assesment</p>
                     <ul>

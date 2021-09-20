@@ -12,12 +12,37 @@ body{
 .main{
     max-width: 1000px;
     padding: 0 4%;
-    margin: 2% auto;
+    margin: 4% auto;
     background-color: hsl(0, 0%, 98%);
     box-shadow: 10px 2px 2px 1px rgba(49, 49, 49, 0.1);
     -webkit-box-shadow: 0px 5px 10px 2px rgba(23, 40, 52, 0.2);
     -moz-box-shadow: 0px 5px 10px 2px rgba(23, 40, 52, 0.2);
     box-shadow: 0px 5px 10px 2px rgba(23, 40, 52, 0.2);
+}
+
+header{
+    width: 100%;
+    position: fixed;
+    top: 0 ;
+    left: 0;
+    background-color: antiquewhite;
+    z-index: 10;
+}
+
+.menu_ul{
+    display: flex;
+    justify-content: space-evenly;
+}
+.menu_ul li{
+    margin: 1%;
+}
+.menu_ul li a{
+    text-decoration: none;
+}
+
+.menu_ul li a:hover{
+    text-decoration: underline;
+    color:black;
 }
 
 article{
@@ -83,7 +108,7 @@ footer{
 .skills img{
     max-height: 35px;
     min-width: 35px;
-    margin: 2%;
+    margin: 2% 2% 2% 0;
 }
 footer img{
     max-height: 50px;
