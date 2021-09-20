@@ -1,0 +1,227 @@
+@import url('https://fonts.googleapis.com/css2?family=Public+Sans:wght@400;900&display=swap');
+*{
+    margin: 0;
+    font-family: 'Public Sans', sans-serif;
+    
+}
+
+body{
+    background: linear-gradient(45deg, #e6e9f0, #eef1f5);
+}
+
+body._lock{
+    overflow: hidden;
+}
+.main{
+    max-width: 1000px;
+    padding: 0 4%;
+    margin: 5% auto;
+    background-color: hsl(0, 0%, 98%);
+    box-shadow: 10px 2px 2px 1px rgba(49, 49, 49, 0.1);
+    -webkit-box-shadow: 0px 5px 10px 2px rgba(23, 40, 52, 0.2);
+    -moz-box-shadow: 0px 5px 10px 2px rgba(23, 40, 52, 0.2);
+    box-shadow: 0px 5px 10px 2px rgba(23, 40, 52, 0.2);
+}
+
+header{
+    width: 100%;
+    position: fixed;
+    top: 0 ;
+    left: 0;
+    background-color: antiquewhite;
+    z-index: 10;
+}
+
+.menu_ul{
+    display: flex;
+    justify-content: space-evenly;
+}
+.menu_ul li{
+    margin: 1%;
+}
+.menu_ul li a{
+    text-decoration: none;
+}
+
+.menu_ul li a:hover{
+    text-decoration: underline;
+    color:black;
+}
+
+article{
+    padding-bottom: 2rem ;
+}
+ul { padding: 0;
+    list-style: none;}
+.content{
+    padding-top:3% ;
+}
+h1{
+    font-size: 36px;
+}
+h3{
+    padding: 2% 0 3% 0;
+}
+h4{
+    padding: 5px 10px;
+    margin-bottom: 0.9rem;
+    border: 2px solid black;
+    display:inline-block;
+}
+.about{
+    border-bottom:2px solid black;
+    padding-right: 5%;
+}
+.profile{
+    display: flex;}
+.profile img{
+    border-radius: 50%;
+    max-height: 80px;
+    min-width: 80px;
+    object-fit: cover;
+    margin: 2% 0 0 3%;
+    border: 5px solid blanchedalmond;
+}
+.experience{
+    margin: 2% 0 5% 0;
+    padding-right: 5%;
+}
+pre{
+    background-color: blanchedalmond;
+    margin-top:4%;
+    padding:  0 5%;
+}
+aside{
+    padding-left: 4%;
+    border-left: 2px solid black;
+}
+footer{
+    display:flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 2% 0;
+    border-top: 2px solid black ;
+}
+.skills{
+    margin-bottom: 2rem;
+    display: flex;
+    flex-wrap: wrap;
+    
+}
+.skills img{
+    max-height: 35px;
+    min-width: 35px;
+    margin: 2% 2% 2% 0;
+}
+footer img{
+    max-height: 50px;
+    min-width: 60px;
+    margin: 1%;
+
+}
+@media (max-width: 767px) {
+    .content{
+        display: inline-block ;
+        margin-top: 10%;
+    }
+    section{
+        width: 95%;
+    }
+    .profile{
+        display: inline;
+    }
+    aside{
+        width: 95%;
+    }
+    .main{
+        padding: 0 8%;
+    }
+    h1{
+        font-size: 28px;
+    }
+    header::before{
+        content: "";
+        position: fixed;
+        width: 100%;
+        top:0;
+        left:0;
+        height: 50px;
+        background-color: antiquewhite;
+    }
+    nav{
+        position: fixed;
+        top: 0;
+        left: -100%;
+        width: 100%;
+        height: 100%;
+        background-color:#00000075;
+        padding: 100px 30px 30px 30px;
+        transition: left 0.3 ease 0s;
+        overflow:auto;
+    }
+    nav._active{
+        left: 0;
+    }
+    .menu_ul{
+        display: block;
+        font-size: x-large;
+    }
+    .menu_ul li a{
+        color: white;
+    }
+    .menu__icon{
+        z-index: 5;
+        display: block;
+        position: relative;
+        width: 30px;
+        height: 18px;
+        margin: 3% 3%;
+        cursor: pointer;
+    }
+    .menu__icon span{
+        top: 50%;
+        transform: scale(1) translate(0px, -50%);
+    }
+    .menu__icon._active span{
+        transform: scale(0) translate(0px, -50%);
+    }
+    .menu__icon._active::before{
+        top:48%;
+        transform: rotate(-45deg) translate(0px, -50%) ;
+    }
+    .menu__icon._active::after{
+        bottom:50%;
+        transform: rotate(45deg) translate(0px, 50%) ;
+    }
+    .menu__icon span,
+    .menu__icon::before,
+    .menu__icon::after{
+        left:0;
+        position:absolute;
+        height: 10%;
+        width: 100%;
+        transition:  all 0.3s ease 0s;
+        background-color: white;
+
+    }
+    .menu__icon::before,
+    .menu__icon::after{
+        content: "";
+    }
+    .menu__icon::before{
+        top:0;
+    }
+    .menu__icon::after{
+        bottom:0;
+    }
+    .menu__icon span{
+        top:50%;
+        transform: scale(1) translate(0px, -50%);
+    }
+
+  }
+  @media (max-width: 320px) {
+      pre{
+          font-size: small;
+      }
+  }

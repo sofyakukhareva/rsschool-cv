@@ -1,0 +1,121 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Cv html css</title>
+    <link rel="stylesheet" href="styles/style.css">
+    <link rel="stylesheet" href="styles/reset.css">
+    <link rel="stylesheet" href="styles/default.min.css">
+    <script src="script.js" defer></script>
+    <script src="highlight.min.js"></script>
+    <script>hljs.highlightAll();</script>
+</head>
+
+<body>
+    <div class="main">
+        <header>
+            <div class="menu__icon">
+                <span></span>
+            </div>
+            <nav>
+                <ul class="menu_ul">
+                    <li><a href="#about">About me</a></li>
+                    <li><a href="#experience">Experience</a></li>
+                    <li><a href="#contacts">Contacts</a></li>
+                    <li><a href="#education">Education</a></li>
+                    <li><a href="#skills">Skills</a></li>
+                    <li><a href="#english">English Level</a></li>
+                </ul>
+            </nav>
+        </header>
+        <div class="content">
+            <section>
+                <div class="about" id="about">
+                    <h4>Junior Software Engineer</h4>
+                    <div class="profile">
+                        <h1>Hello,I'm<br /> Sofya Kukharava</h1>
+                        <img src="images/profile_photo.jpg" alt="profile photo" />
+                    </div>
+                    <article>
+                        <h3>About me</h3>
+                        <p>I like to learn everything related to user interfaces development.
+                            Specifically ui/ux design and front-end. My aim is to get a deep knowledge about development
+                            and have opportunity to develop qualitave interfaces.</p>
+                    </article>
+                </div>
+                <div class="experience" id="experience">
+                    <article>
+                        <h3>Experience</h3>
+                        <p>I have been working as a Content Strategist in EPAM Systems for half a year.
+                            And I want to gain practical experience to work as a Software Engineer.
+                            Due to my concerment I took html&css courses in 2017.
+                            Also later in college I made learning pages for teachers and developed a training program
+                            using react for my graduate work.</p>
+                    </article>
+                    <h4>Code example</h4>
+                    <pre>
+                        <code class="javascript">
+function calcType(a, b, res) {
+    switch(res){
+        case a + b: return "addition"
+        case a - b: return "subtraction"
+        case a * b: return "multiplication"
+        case a / b: return "division"
+    }
+}
+                        </code>                       
+                    </pre>
+                </div>
+            </section>
+            <aside>
+                <article id ="contacts">
+                    <h4 >Contacts</h4>
+                    <ul>
+                        <li><b>Location:</b> Minsk, Belarus</li>
+                        <li><b>Number: </b>+375298578437</li>
+                        <li><b>Email: </b>s.kuxareva@gmail.com</li>
+                        <li><b>GitHub:</b><a href="https://github.com/sofyakukhareva"> sofyakukhareva</a></li>
+                        <li><b>Instagram:</b><a href="https://www.instagram.com/linthutien/"> linthutien</a></li>
+                    </ul>
+                </article>
+                <article id="education">
+                    <h4>Education</h4>
+                    <h5>2017-2021</h5>
+                    <p>BSUIR affiliate “Minsk Radioengineering College”</p>
+                    <h5>2021-now</h5>
+                    <p>European Humanities University</p>
+                </article>
+                <h4>Skills</h4>
+                <div class="skills" id="skills">
+                    <img src="images/html.png" alt="html logo" />
+                    <img src="images/css.png" alt="css logo" />
+                    <img src="images/js.png" alt="js logo" />
+                    <img src="images/react.png" alt="react logo" />
+                    <img src="images/photoshop.png" alt="photoshop logo" />
+                    <img src="images/figma.png" alt="figma logo" />
+                    <img src="images/wordpress.png" alt="wordpress logo" />
+                    <img src="images/drupal.png" alt="drupal logo" />
+                    <img src="images/jira.svg" alt="jira logo" />
+                </div>
+                <article class="english" id="english">
+                    <h4>English Level</h4>
+                    <p>EPAM English assesment</p>
+                    <ul>
+                        <li>Writing B1+</li>
+                        <li>Speking B1+</li>
+                    </ul>
+                </article>
+            </aside>
+        </div>
+        <footer>
+            <h3><a href="https://github.com/sofyakukhareva">My GitHub</a></h3>
+            <h3>2021</h3>
+            <a href="https://rs.school/js/"><img src="images/rs_school.svg" alt="rs school logo" /></a>
+        </footer>
+    </div>
+</body>
+
+</html>
